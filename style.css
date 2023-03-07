@@ -59,3 +59,50 @@ nav {
 .header-title h1 {
     font-size: 3.5em;
 }
+
+.interactive-div {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.interactive-picture {
+    height: 450px;
+    width: 1000px;
+    display: flex;
+    position: relative;
+}
+
+.interactive-picture img {
+    height: 450px;
+}
+
+.interactive-txt {
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    margin-left: 500px;
+    margin-top: 150px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.interactive-txt h1 {
+    font-size: 2.3rem;
+    text-transform: uppercase;
+}
+
+.interactive-txt p {
+    margin-top: 20px;
+    width: 350px;
+    line-height: 1.5em;
+}
+
+
+
+
