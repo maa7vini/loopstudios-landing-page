@@ -137,19 +137,150 @@ nav {
 }
 
 .creations-top {
-    border: 1px solid purple;
     height: 400px;
     width: 80%;
     margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.deep-earth {
+    height: 400px;
+    width: 230px;
+    background-image: url(images/image-deep-earth.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.deep-earth h1 {
+    color: whitesmoke;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 300px;
+    text-shadow: 3px 3px 3px black;
+}
+
+.night-arcade {
+    height: 400px;
+    width: 230px;
+    background-image: url(images/image-night-arcade.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.night-arcade h1 {
+    color: whitesmoke;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 300px;
+    text-shadow: 3px 3px 3px black;
+}
+
+.soccer-team-vr {
+    height: 400px;
+    width: 230px;
+    background-image: url(images/image-soccer-team.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.soccer-team-vr h1 {
+    color: whitesmoke;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 300px;
+    text-shadow: 3px 3px 3px black;
+}
+
+.the-grid {
+    height: 400px;
+    width: 230px;
+    background-image: url(images/image-grid.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.the-grid h1 {
+    color: whitesmoke;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 300px;
+    text-shadow: 3px 3px 3px black;
 }
 
 .creations-bottom {
-    border: 1px solid purple;
     height: 400px;
     width: 80%;
-    margin-top: 10px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
+.from-up-above-vr {
+    height: 400px;
+    width: 230px;
+    background-image: url(images/image-from-above.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.from-up-above-vr h1 {
+    color: whitesmoke;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 300px;
+    text-shadow: 3px 3px 3px black;
+}
+
+.pocket-borealis {
+    height: 400px;
+    width: 230px;
+    background-image: url(images/image-pocket-borealis.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.pocket-borealis h1 {
+    color: whitesmoke;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 300px;
+    text-shadow: 3px 3px 3px black;
+}
+
+.the-curiosity {
+    height: 400px;
+    width: 230px;
+    background-image: url(images/image-curiosity.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.the-curiosity h1 {
+    color: whitesmoke;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 300px;
+    text-shadow: 3px 3px 3px black;
+}
+
+.make-it-fisheye {
+    height: 400px;
+    width: 230px;
+    background-image: url(images/image-fisheye.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.make-it-fisheye h1 {
+    color: whitesmoke;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 300px;
+    text-shadow: 3px 3px 3px black;
+}
 
 
 
