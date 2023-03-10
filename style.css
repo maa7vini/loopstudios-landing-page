@@ -106,7 +106,7 @@ nav {
 }
 
 .creations-container {
-    height: 200vh;
+    height: 150vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -407,6 +407,185 @@ footer {
 .footer-right-container p {
     color: gray;
     margin-top: 20px;
+}
+
+@media (max-width: 1175px) {
+    .creations-top {
+        height: 300px;
+    }
+
+    .deep-earth {
+        height: 300px;
+        width: 200px;
+    }
+
+    .deep-earth h1 {
+        margin-left: 20px;
+        margin-top: 230px;
+    }
+
+    .night-arcade {
+        height: 300px;
+        width: 200px;
+    }
+
+    .night-arcade h1 {
+        margin-left: 20px;
+        margin-top: 230px;
+    }
+
+    .soccer-team-vr {
+        height: 300px;
+        width: 200px;
+    }
+
+    .soccer-team-vr h1 {
+        margin-left: 20px;
+        margin-top: 230px;
+    }
+
+    .the-grid {
+        height: 300px;
+        width: 200px;
+    }
+
+    .the-grid h1 {
+        margin-left: 20px;
+        margin-top: 230px;
+    }
+
+    .creations-bottom {
+        height: 250px;
+        margin-top: 30px;
+    }
+
+    .from-up-above-vr {
+        height: 300px;
+        width: 200px;
+        margin-top: 30px;
+    }
+
+    .from-up-above-vr h1 {
+        margin-left: 20px;
+        margin-top: 230px;
+    }
+
+    .pocket-borealis {
+        height: 300px;
+        width: 200px;
+        margin-top: 30px;
+    }
+
+    .pocket-borealis h1 {
+        margin-left: 20px;
+        margin-top: 230px;
+    }
+
+    .the-curiosity {
+        height: 300px;
+        width: 200px;
+        margin-top: 30px;
+    }
+
+    .the-curiosity h1 {
+        margin-left: 20px;
+        margin-top: 230px;
+    }
+
+    .make-it-fisheye {
+        height: 300px;
+        width: 200px;
+        margin-top: 10px;
+    }
+
+    .make-it-fisheye h1 {
+        margin-left: 20px;
+        margin-top: 230px;
+    }
+    
+}
+
+@media (max-width: 1100px) {
+    .creations-container {
+        height: 200vh;
+    }
+
+    .creations-top {
+        height: 550px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .creations-bottom {
+        height: 550px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .deep-earth h1 {
+        margin-left: 20px;
+        margin-top: 60px;
+    }
+
+    .night-arcade {
+        margin-top: 10px;
+    }
+
+    .night-arcade h1 {
+        margin-left: 20px;
+        margin-top: 60px;
+    }
+
+    .soccer-team-vr {
+        margin-top: 10px;
+    }
+
+    .soccer-team-vr h1 {
+        margin-left: 20px;
+        margin-top: 60px;
+    }
+
+    .the-grid {
+        margin-top: 10px;
+    }
+
+    .the-grid h1 {
+        margin-left: 20px;
+        margin-top: 60px;
+    }
+
+    .from-up-above-vr h1 {
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+
+    .pocket-borealis {
+        margin-top: 10px;
+    }
+
+    .pocket-borealis h1 {
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+
+    .the-curiosity {
+        margin-top: 10px;
+    }
+
+    .the-curiosity h1 {
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+
+    .make-it-fisheye h1 {
+        margin-left: 10px;
+        margin-top: 50px;
+    }
 }
 
 
